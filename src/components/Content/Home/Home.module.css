@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
+
+.main{
+    display: grid;
+}
+
+.main .title{
+    font-size: 36px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Krona One';
+}
+
+.main .name{
+    font-size: 26px;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    color: #f4d210;
+}
+
+.main .name .menu{
+    display: inline-block;
+    width: 400px;
+    font-family: 'Krona One';
+}
+
+input{
+    height: 30px;
+    margin-left: 30px;
+    font-size: 24px;
+    width: 200px;
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #eed9ff;
+}
+
+.create{
+    margin: auto;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    text-transform: uppercase;
+    outline: none;
+    border: 0;
+    border-radius: 10px;
+    background-color: #deb1ff;
+    color: green;
+    font-family: 'Krona One';
+}
+
+.main .show {
+    display: grid;
+    text-align: center;
+}
+
+.main .show .showTitle{
+    font-size: 36px;
+    margin-bottom: 15px;
+    color: #f4d210;
+    font-family: 'Krona One';
+}
+
+
+.main .ad{
+    width: 240px;
+    height: 300px;
+    background-color: #fff;
+    justify-self: center;
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+    outline: none;
+}
+
+.main .ad:focus-within{
+    color: red;
+}
+
+.main .ad img{
+    height: 200px;
+    width: 150px;
+    text-align: center;
+}
+
+.main .ad .name{
+    font-size: 30px;
+    margin: 0px;
+    color: #000;
+    text-transform: uppercase;
+    font-family: 'Odibee Sans';
+}
+
+.main .ad .price{
+    font-size: 26px;
+    font-family: 'Fredoka One', 'Arial';
+}

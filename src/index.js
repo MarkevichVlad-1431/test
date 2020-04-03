@@ -3,10 +3,24 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import state from './redux/state';
+import {addProduct} from './redux/state';
+import { BrowserRouter } from 'react-router-dom';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+import {pushCatalog} from './redux/state';
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
+// ReactDOM.render(
+//     <BrowserRouter>
+//         <App state = {state}/>
+//     </BrowserRouter>, document.getElementById('root'));
+
+
+ export let rerenderTree = () => {
+    ReactDOM.render(
+        <BrowserRouter>
+            <App state = {state} addProduct = {addProduct} pushCatalog = {pushCatalog}/>
+        </BrowserRouter>, document.getElementById('root'));
+}
+
+rerenderTree();
 serviceWorker.unregister();

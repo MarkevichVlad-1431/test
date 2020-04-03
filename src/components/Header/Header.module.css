@@ -1,0 +1,21 @@
+.logo{
+    height: 100%;
+    display: grid;
+    grid-template-areas: 'logo text';
+    grid-template-columns: 1fr, 1fr;
+}
+
+.foto{
+    grid-area: logo;
+    height: 100%;
+    margin: auto;
+}
+
+.text{
+    align-items: center;
+    display: grid;
+    font-family: 'Akronim', cursive;
+    color: #000;
+    font-size: 50px;
+    
+}

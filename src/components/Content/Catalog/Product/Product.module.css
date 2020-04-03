@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
+.size{
+    height: 300px;
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+    outline: none;
+}
+.size:focus-within{
+    color: red;
+}
+
+.size img{
+    height: 200px;
+    width: 150px;
+}
+
+.size .name{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Odibee Sans';
+}
+
+.size .price{
+    font-size: 26px;
+    font-family: 'Fredoka One', 'Arial';
+}
+
